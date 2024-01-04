@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');                
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Amazon Ember', sans-serif;
+                                                
+}
+nav{
+    display: flex;
+    background-color: #00050d;
+    height: 48px;
+     gap: 50px;
+     justify-content: space-aroundpro;
+     text-align: center;
+}
+#logo{
+     background-color:transparent ; 
+     height: 24px; 
+}
+
+.menu{
+    display: flex;
+    color: white;
+    background-color: #00050d;
+    gap:10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menu2
+{
+    display: flex;
+    margin: 20px;
+    color: white;
+    gap:10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.search{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.n{
+    display: flex;
+    gap: 20px;
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+.home{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.b1{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(amazon.jpg)
+
+}
+.tx1{
+    position: relative;
+    height: 100vh;
+    font-family: 'Amazon Ember Display', sans-serif;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.tx1 h2{
+    margin-top: 20px;
+}
+.btn1 button{
+    background-color:rgb(49, 49, 240) ;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+    margin-top: 10px;
+    border-radius: 10px;
+}
